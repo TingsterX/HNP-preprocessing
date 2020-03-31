@@ -84,10 +84,10 @@ This repo contains NHP data preprocessing documents,and example codes. Unlike hu
 ```
 Pop quiz: Which one is a gibbon and which one is a macaque？
 
-     |  c(..)o    @(..)D  
-      \__(-)        (-)__/
-          /\  (      /\
-       __/(_)__)    (_)\_
+     |  c(..)o @(..)D  
+      \__(-)    (-)__/
+          /\  (  /\
+       __/(_)__) (_)\_
 ```
 ### [Issues](issues_and_fix.md)
 - A first galance
