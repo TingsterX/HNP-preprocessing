@@ -1,9 +1,3 @@
----
-noteId: "b7876da0730811eaaaf5e7f4f056ec8a"
-tags: []
-
----
-
 ## Nonhuman Primate (NHP) f/MRI data preprocessing
 
 This repo contains NHP data preprocessing documents,and example codes. Unlike human data, NHP data preprocessing could be challenging, since most of the imaging tools are originally developed for human data. Besides specific parameters setting, there are several issues may only happen for NHP data. At the current stage, it is difficult to have an easy, end-to-end pipeline works well for all NHP f/MRI data, in particular for data from multiple sites (differnt scanner, coils, acquisition protocols, data quality, etc.). 
