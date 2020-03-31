@@ -10,7 +10,7 @@ This repo contains NHP data preprocessing documents,and example codes. Unlike hu
 |   |/  "  \|                                                        |
 |    \ \-/ /   This repo is not a tutorials and it won't walk        |
 |    /`"""`\   through every little details of the tools. Instead,   |
-|   /       \  it provides examples, lessons learned from mistakes,  |
+|   /       \  it provides examples of lessons learned from mistakes,|
 | tricks, clues to debug or tweak the pipeline for NHP data.         |
 |                                                                    |
 ----------------------------------------------------------------------
@@ -30,29 +30,29 @@ This repo contains NHP data preprocessing documents,and example codes. Unlike hu
 ----
 
 ### Macaque Templates 
-- F99
-    - Keyword: Classic standard template
+- **F99**
+    - **Keywords**: Classic standard template
     - Format/tools: Caret 
     - The 'first generation' of macaque surface template. Multiple parcellation maps have converted to this space. 
-    - Ref:[Van Essen et al., 2012](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3500860/)
+    - Ref: [Van Essen et al., 2012](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3500860/)
 
-- Yerkes19
-    - Keyword: HCP-style
+- **Yerkes19**
+    - **Keywords**: HCP-style
     - Format/tools: NIFTI/GIFTI, workbench
     - The 'second generation' of F99, HCP-style macaque template including brain mask, volume segmentation in FreeSurfer format, symmetric surface meshes (164k_fs_LR, 32k_fs_LR, 10k_fs_LR), morphometric maps (T1w/T2w, ) etc.
     - [HCP-style Macaque Pipeline](https://github.com/Washington-University/NHPPipelines/tree/master/global/templates)
     - [Yerkes19 Atlas on BALSA](https://balsa.wustl.edu/reference/show/976nz) 
     - Ref: [Donahue et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27335406/), [Autio et al., 2019 biorxiv](https://www.biorxiv.org/content/10.1101/602979v1)
 
-- NMT 
-    - Keyword: High quality, high resolution
+- **NMT**
+    - **Keywords**: High quality, high resolution
     - Format/tools: NIFTI/GIFTI, afni
     - Macaque template generated from 31 high quality data in 0.25 mm resolution, including brain mask, segmentation, surface and morphometric maps (e.g. thickness). 
     - [NMT Pipeline](https://github.com/jms290/NMT)
     - Ref: [Seidlitz et al., 2017] (https://pubmed.ncbi.nlm.nih.gov/28461058/)
 
-- D99
-    - Keyword:  3D Digital template from [Saleem adn Logothetis atlas](https://books.google.com/books?hl=en&lr=&id=tuVyU2-s8MUC&oi=fnd&pg=PP2&ots=yGMq0Lsf48&sig=aA-yVeh01CfKVmD6LCLWtyFLiQ0). (A 'Talairach-like' macaque template for afni fans)
+- **D99**
+    - **Keywords**:  3D Digital template from [Saleem adn Logothetis atlas](https://books.google.com/books?hl=en&lr=&id=tuVyU2-s8MUC&oi=fnd&pg=PP2&ots=yGMq0Lsf48&sig=aA-yVeh01CfKVmD6LCLWtyFLiQ0). (A 'Talairach-like' macaque template for afni fans)
     - Format/tools: GIFTI, afni & suma
     - Ref: [Reveley et al., 2017](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6075609/)
 
@@ -80,3 +80,29 @@ This repo contains NHP data preprocessing documents,and example codes. Unlike hu
 - Reference: [Van Essen et al., 2019](https://www.pnas.org/content/116/52/26173), 
 
 ----
+## [Welcome to the monkey world](issues_and_fix.md)
+```
+Pop quiz: Which one is a gibbon and which one is a macaque？
+
+     |  c(..)o    @(..)D  
+      \__(-)        (-)__/
+          /\  (      /\
+       __/(_)__)    (_)\_
+```
+### [Issues](issues_and_fix.md)
+- A first galance
+    - Size
+    - Male versus Female 
+    - Open scalp
+- Orientation
+- Denoise
+- Crop and ACPC alignment
+- Brain extraction (skull stripping)
+- Intensity correction
+- Segmentation
+- Surface reconstruction 
+- *ex vivo* image and fake T1 image
+- Contrast agent for fMRI data
+- Distortion
+- Ghost effect
+
