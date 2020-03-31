@@ -6,9 +6,9 @@ This repo contains NHP data preprocessing documents,and example codes. Unlike hu
 ```
 ----------------------------------------------------------------------
 |   _/.-.-.\_                                                        |
-|  ( ( o o ) )                                                       |
+|  ( ( o o ) ) Message from Data Monkey                              |
 |   |/  "  \|                                                        |
-|    \ \-/ /   This repo is not a tutorials and it won't walk        |
+|    \ \-/ /   This repo is not a tutorial and it won't walk         |
 |    /`"""`\   through every little details of the tools. Instead,   |
 |   /       \  it provides examples of lessons learned from mistakes,|
 | tricks, clues to debug or tweak the pipeline for NHP data.         |
@@ -89,7 +89,7 @@ Pop quiz: Which one is a gibbon and which one is a macaque？
           /\  (  /\
        __/(_)__) (_)\_
 ```
-### [Issues](issues_and_fix.md)
+### [Issues and Fix](issues_and_fix.md)
 - A first galance
     - Size
     - Male versus Female 
@@ -105,4 +105,7 @@ Pop quiz: Which one is a gibbon and which one is a macaque？
 - Contrast agent for fMRI data
 - Distortion
 - Ghost effect
+
+### Cross-species comparisons
+
 
